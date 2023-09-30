@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Walkerz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white
+        </item> <!-- Use white text color on the primary color -->
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/white
+        </item> <!-- Use white text color on the secondary color -->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#1565C0</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/white</item> <!-- Use white text color -->
+        <item name="android:textColorHint">#8F8F8F</item>
+
+        <!-- Additional adjustments for better visibility on dark phones -->
+        <item name="android:windowLightStatusBar">false</item> <!-- Disable light status bar -->
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false
+        </item> <!-- Disable light navigation bar -->
+        <item name="android:navigationBarColor">#000000
+        </item> <!-- Set navigation bar color to black -->
+    </style>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_nav_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_speedometer"
+        app:cnb_textColor="#FFF"
+        app:cnb_iconColor="#FFF"
+        app:cnb_backgroundColor="#FFFF6079"
+        />
+    <item
+        android:id="@+id/bottom_nav_Statistics"
+        android:title="Statistics"
+        android:icon="@drawable/ic_chart_breakout_circle"
+        app:cnb_textColor="#FFF"
+        app:cnb_iconColor="#FFF"
+        app:cnb_backgroundColor="#FFFF6079"
+        />
+    <item
+        android:id="@+id/bottom_nav_wallet"
+        android:title="Wallet"
+        android:icon="@drawable/ic_wallet"
+        app:cnb_textColor="#FFF"
+        app:cnb_iconColor="#FFF"
+        app:cnb_backgroundColor="#FFFF6079"
+        />
+    <item
+        android:id="@+id/bottom_nav_account"
+        android:title="Profile"
+        android:icon="@drawable/ic_user_circle"
+        app:cnb_textColor="#FFF"
+        app:cnb_iconColor="#FFF"
+        app:cnb_backgroundColor="#FFFF6079"
+        />
+</menu>

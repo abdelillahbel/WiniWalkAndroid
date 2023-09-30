@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFFF6079</color>
+    <color name="purple_500">#FFFF6079</color>
+    <color name="purple_700">#001122</color>
+    <color name="teal_200">#FFFF6079</color>
+    <color name="teal_700">#FFFF6079</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_200">#FFFF6079</color>
+    <color name="green">#2E7D32</color>
+    <color name="red">#C62828</color>
+    <color name="alert_dialog_button_color">#FFFF6079</color>
+
+    <!--colors for profile-->
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+    <color name="btn_disabled">#707070</color>
+
+
+</resources>
