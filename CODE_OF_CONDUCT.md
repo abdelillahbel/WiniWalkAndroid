@@ -32,7 +32,7 @@ The following behaviors are considered unacceptable within our community:
 
 ### Reporting Violations
 
-If you experience or witness behavior that violates this Code of Conduct, please report it promptly by contacting [Abdel Illah Belaoudj](mailto:abdel.illah@example.com). All reports will be kept confidential.
+If you experience or witness behavior that violates this Code of Conduct, please report it promptly by contacting [Abdel Illah Belaoudj](mailto:abdelillahbel@engineer.com). All reports will be kept confidential.
 
 ### Enforcement
 
@@ -48,4 +48,4 @@ Thank you for your understanding and cooperation.
 
 ---
 
-[Link to WiniWalk GitHub Repository](https://github.com/abdelillahbel/WiniWalk)
+[Link to WiniWalk GitHub Repository](https://github.com/abdelillahbel/WiniWalkAndroid)

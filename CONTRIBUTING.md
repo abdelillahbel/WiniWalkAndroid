@@ -12,11 +12,11 @@ To get started, you'll need to set up your development environment. Follow these
 
 ## Coding Standards
 
-Please follow our coding standards and style guidelines when making changes to the codebase. We use [coding-style-guide-link](https://github.com/abdelillahbel/WiniWalk/wiki/CODE_OF_CONDUCT.md) for guidance.
+Please follow our coding standards and style guidelines when making changes to the codebase. We use [coding-style-guide-link](https://github.com/abdelillahbel/WiniWalkAndroid/wiki/CODE_OF_CONDUCT.md) for guidance.
 
 ## Reporting Bugs
 
-If you encounter a bug or issue with WiniWalk, please report it on our [Issue Tracker](https://github.com/abdelillahbel/WiniWalk/issues). Be sure to provide detailed information about the issue.
+If you encounter a bug or issue with WiniWalk, please report it on our [Issue Tracker](https://github.com/abdelillahbel/WiniWalkAndroid/issues). Be sure to provide detailed information about the issue.
 
 ## Submitting Changes
 

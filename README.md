@@ -60,7 +60,7 @@ WiniWalk is built using a combination of Java, Kotlin, and Firebase, ensuring a 
 
 ## Feedback and Contributions
 
-We welcome your feedback, suggestions, and contributions to make WiniWalk even better. If you encounter any issues or have ideas for improvement, please [create an issue](https://github.com/abdelillahbel/WiniWalk/issues) or [contribute to the project](https://github.com/abdelillahbel/WiniWalk/contribute).
+We welcome your feedback, suggestions, and contributions to make WiniWalk even better. If you encounter any issues or have ideas for improvement, please [create an issue](https://github.com/abdelillahbel/WiniWalkAndroid/issues) or [contribute to the project](https://github.com/abdelillahbel/WiniWalkAndroid/contribute).
 
 ## Authors
 
