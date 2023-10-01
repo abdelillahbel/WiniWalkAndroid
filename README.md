@@ -5,14 +5,37 @@ WiniWalk is a fun and motivating walking app designed to turn every step into a 
 
 ## Screenshots
 
-![App Screenshot](app/src/main/assets/screenshot1.png)
-![App Screenshot](app/src/main/assets/screenshot2.png)
-![App Screenshot](app/src/main/assets/screenshot3.png)
-![App Screenshot](app/src/main/assets/screenshot4.png)
-![App Screenshot](app/src/main/assets/screenshot5.png)
-![App Screenshot](app/src/main/assets/screenshot6.png)
-![App Screenshot](app/src/main/assets/screenshot7.png)
-![App Screenshot](app/src/main/assets/screenshot8.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="app/src/main/assets/screenshot1.png" width="200" alt="Screenshot 1">
+    </td>
+    <td align="center">
+      <img src="app/src/main/assets/screenshot2.png" width="200" alt="Screenshot 2">
+    </td>
+    <td align="center">
+      <img src="app/src/main/assets/screenshot3.png" width="200" alt="Screenshot 3">
+    </td>
+    <td align="center">
+      <img src="app/src/main/assets/screenshot4.png" width="200" alt="Screenshot 4">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="app/src/main/assets/screenshot5.png" width="200" alt="Screenshot 5">
+    </td>
+    <td align="center">
+      <img src="app/src/main/assets/screenshot6.png" width="200" alt="Screenshot 6">
+    </td>
+    <td align="center">
+      <img src="app/src/main/assets/screenshot7.png" width="200" alt="Screenshot 7">
+    </td>
+    <td align="center">
+      <img src="app/src/main/assets/screenshot8.png" width="200" alt="Screenshot 8">
+    </td>
+  </tr>
+</table>
+
 
 ## Features
 
