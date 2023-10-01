@@ -1,7 +1,18 @@
 # WiniWalk
-![Logo](app/src/main/ic_launcher-playstore.png)
+![Logo](app/src/main/res/mipmap-anydpi-v26)
 
 WiniWalk is a fun and motivating walking app designed to turn every step into a chance to win! Whether you're a fitness enthusiast or just looking to stay active, WiniWalk provides a unique and enjoyable way to track your walking progress while giving you the opportunity to earn rewards and prizes along the way.
+
+## Screenshots
+
+![App Screenshot](app/src/main/assets/screenshot1.png)
+![App Screenshot](app/src/main/assets/screenshot2.png)
+![App Screenshot](app/src/main/assets/screenshot3.png)
+![App Screenshot](app/src/main/assets/screenshot4.png)
+![App Screenshot](app/src/main/assets/screenshot5.png)
+![App Screenshot](app/src/main/assets/screenshot6.png)
+![App Screenshot](app/src/main/assets/screenshot7.png)
+![App Screenshot](app/src/main/assets/screenshot8.png)
 
 ## Features
 
@@ -24,35 +35,35 @@ To get started with WiniWalk on your Android device, follow these steps:
 1. **Clone the Repository**: Clone this GitHub repository to your local machine using Git or download it as a ZIP file and extract it.
 
 2. **Obtain `google-services.json`**:
-    - Visit the [Firebase Console](https://console.firebase.google.com/).
-    - Create a new Firebase project or use an existing one.
-    - In your Firebase project, go to "Project settings" (click on the gear icon in the top left).
-    - Under the "General" tab, scroll down to the "Your apps" section.
-    - Click on the Android app icon (it looks like the Android logo).
-    - Follow the setup steps, including providing your Android app's package name (found in your app's `build.gradle` file).
-    - Download the `google-services.json` file provided during the setup process.
+   - Visit the [Firebase Console](https://console.firebase.google.com/).
+   - Create a new Firebase project or use an existing one.
+   - In your Firebase project, go to "Project settings" (click on the gear icon in the top left).
+   - Under the "General" tab, scroll down to the "Your apps" section.
+   - Click on the Android app icon (it looks like the Android logo).
+   - Follow the setup steps, including providing your Android app's package name (found in your app's `build.gradle` file).
+   - Download the `google-services.json` file provided during the setup process.
 
 3. **Place `google-services.json` Under `app` Directory**:
-    - Move the downloaded `google-services.json` file to the `app` directory in your project.
+   - Move the downloaded `google-services.json` file to the `app` directory in your project.
 
 4. **Open in Android Studio or IntelliJ IDEA**:
-    - If you're using Android Studio or IntelliJ IDEA, open the project by selecting `File` -> `Open` and selecting the project directory.
+   - If you're using Android Studio or IntelliJ IDEA, open the project by selecting `File` -> `Open` and selecting the project directory.
 
 5. **Build the APK**:
-    - Build the APK by clicking on the "Build" menu and then selecting "Build Bundle(s) / APK(s)" -> "Build APK(s)".
+   - Build the APK by clicking on the "Build" menu and then selecting "Build Bundle(s) / APK(s)" -> "Build APK(s)".
 
 6. **Install on Your Device**:
-    - Transfer the generated APK file to your Android device.
-    - Enable "Install from Unknown Sources" in your device settings if not already enabled.
-    - Use a file manager app to locate the APK file on your device and install it.
+   - Transfer the generated APK file to your Android device.
+   - Enable "Install from Unknown Sources" in your device settings if not already enabled.
+   - Use a file manager app to locate the APK file on your device and install it.
 
 7. **Sign Up or Log In**:
-    - Open the WiniWalk app on your Android device.
-    - Sign up for a new account or log in if you already have one.
+   - Open the WiniWalk app on your Android device.
+   - Sign up for a new account or log in if you already have one.
 
 8. **Start Walking and Winning**:
-    - Allow the app to access your device's step data for accurate tracking.
-    - Start walking, set goals, and join challenges to win exciting rewards!
+   - Allow the app to access your device's step data for accurate tracking.
+   - Start walking, set goals, and join challenges to win exciting rewards!
 
 ## Technologies Used
 
