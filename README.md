@@ -1,5 +1,5 @@
 # WiniWalk
-![Logo](app/src/main/res/mipmap-anydpi-v26)
+![Logo](app/src/main/res/mipmap-xhdpi/ic_launcher.png)
 
 WiniWalk is a fun and motivating walking app designed to turn every step into a chance to win! Whether you're a fitness enthusiast or just looking to stay active, WiniWalk provides a unique and enjoyable way to track your walking progress while giving you the opportunity to earn rewards and prizes along the way.
 
