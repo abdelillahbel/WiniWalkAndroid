@@ -291,7 +291,6 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-
     /*
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
 
