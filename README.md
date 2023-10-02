@@ -1,17 +1,14 @@
 # WiniWalk
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
-![Logo](app/src/main/res/mipmap-xhdpi/ic_launcher.png)
+<!-- ![Logo](app/src/main/res/mipmap-xhdpi/ic_launcher.png) -->
 
 <table>
   <tr>
-    <td><img src="https://example.com/logo.png" alt="Logo"></td>
-    <td>Your text goes here.</td>
+    <td><img src="app/src/main/res/mipmap-xhdpi/ic_launcher.png" alt="Logo"></td>
+    <td>WiniWalk is a fun and motivating walking app designed to turn every step into a chance to win! Whether you're a fitness enthusiast or just looking to stay active, WiniWalk provides a unique and enjoyable way to track your walking progress while giving you the opportunity to earn rewards and prizes along the way.</td>
   </tr>
 </table>
-
-
-WiniWalk is a fun and motivating walking app designed to turn every step into a chance to win! Whether you're a fitness enthusiast or just looking to stay active, WiniWalk provides a unique and enjoyable way to track your walking progress while giving you the opportunity to earn rewards and prizes along the way.
 
 ## Screenshots
 
