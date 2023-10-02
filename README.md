@@ -1,4 +1,6 @@
 # WiniWalk
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+
 ![Logo](app/src/main/res/mipmap-xhdpi/ic_launcher.png)
 
 WiniWalk is a fun and motivating walking app designed to turn every step into a chance to win! Whether you're a fitness enthusiast or just looking to stay active, WiniWalk provides a unique and enjoyable way to track your walking progress while giving you the opportunity to earn rewards and prizes along the way.
@@ -101,7 +103,6 @@ We welcome your feedback, suggestions, and contributions to make WiniWalk even b
 - [@abdelillahbel](https://www.github.com/abdelillahbel)
 
 ## License
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
 ---
