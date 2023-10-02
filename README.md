@@ -1,5 +1,6 @@
 # WiniWalk
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![Abdel Illah Bel](https://img.shields.io/badge/Author-AbdelIllahBel-blue.svg)](https://github.com/abdelillahbel)
 
 <!-- ![Logo](app/src/main/res/mipmap-xhdpi/ic_launcher.png) -->
 
