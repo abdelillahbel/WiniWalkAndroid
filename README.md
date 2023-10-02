@@ -3,6 +3,7 @@
 [![abdelilahbel](https://img.shields.io/badge/Author-abdelillahbel-blue.svg)](https://github.com/abdelillahbel)
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg)](https://opensource.org/)
 [![Code Quality](https://img.shields.io/codeclimate/maintainability/abdelillahbel/WiniWalkAndroid.svg)](https://codeclimate.com/github/abdelillahbel/WiniWalkAndroid)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6959a6aea0138af498f5/test_coverage)](https://codeclimate.com/github/abdelillahbel/WiniWalkAndroid/test_coverage)
 
 <!-- ![Logo](app/src/main/res/mipmap-xhdpi/ic_launcher.png) -->
 
