@@ -2,7 +2,7 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![abdelilahbel](https://img.shields.io/badge/Author-abdelillahbel-blue.svg)](https://github.com/abdelillahbel)
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg)](https://opensource.org/)
-[![Dependencies](https://img.shields.io/david/abdelillahbel/WiniWalkAndroid.svg)](https://david-dm.org/abdelillahbel/WiniWalkAndroid)
+[![Code Quality](https://img.shields.io/codeclimate/maintainability/abdelillahbel/WiniWalkAndroid.svg)](https://codeclimate.com/github/abdelillahbel/WiniWalkAndroid)
 
 <!-- ![Logo](app/src/main/res/mipmap-xhdpi/ic_launcher.png) -->
 
