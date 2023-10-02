@@ -21,7 +21,11 @@ android {
     }
 
     buildTypes {
+        debug {
+            resValue("string", "default_web_client_id", MY_WEB_CLIENT_ID)
+        }
         release {
+            resValue("string", "default_web_client_id", MY_WEB_CLIENT_ID)
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
