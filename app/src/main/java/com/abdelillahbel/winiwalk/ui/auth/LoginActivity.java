@@ -6,6 +6,8 @@ package com.abdelillahbel.winiwalk.ui.auth;
 
 import static android.content.ContentValues.TAG;
 
+import static com.abdelillahbel.winiwalk.BuildConfig.WEB_CLIENT_ID;
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -182,7 +184,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void createRequest() {
         // Configure Google Sign In
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build();
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(WEB_CLIENT_ID).requestEmail().build();
         // Build a GoogleSignInClient with the options specified by gso.
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
     }
