@@ -25,6 +25,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
+            android:id="@+id/linearLayout8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -45,7 +46,6 @@
                 android:textSize="20sp" />
 
 
-
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/account_item_view"
                 android:layout_width="match_parent"
@@ -57,10 +57,10 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_pic"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_marginStart="@dimen/_2sdp"
-                    android:background="@drawable/ic_profile_s"
+                    android:background="@drawable/empty_profile_pic"
                     android:scaleType="centerCrop"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +83,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_5sdp"
-                        android:fontFamily="@font/google_sans_medium"
+                        android:fontFamily="@font/google_sans_bold"
                         android:text="User Account"
                         android:textColor="@color/black"
                         android:textSize="14sp" />
@@ -94,13 +94,12 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/back_coins"
                         android:fontFamily="@font/google_sans_medium"
-                        android:paddingStart="@dimen/_5sdp"
-                        android:paddingEnd="@dimen/_5sdp"
+                        android:padding="3dp"
                         android:rotation="0"
                         android:rotationX="0"
                         android:rotationY="0"
                         android:text="Regular"
-                        android:textColor="#FFFF00"
+                        android:textColor="#EEE"
                         android:textSize="12sp" />
 
 
@@ -117,8 +116,6 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/linearLayout5"
                     app:layout_constraintTop_toTopOf="parent" />
-
-
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -176,7 +173,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_10sdp"
-                                android:layout_marginBottom="@dimen/_5sdp"
                                 android:fontFamily="@font/google_sans_medium"
                                 android:text="Settings"
                                 android:textColor="@color/black"
@@ -201,7 +197,6 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
-
 
 
             </ScrollView>
@@ -230,7 +225,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/logout"/>
+                        android:src="@drawable/logout" />
 
                     <TextView
                         android:id="@+id/logout_btn"
@@ -249,23 +244,23 @@
                 </LinearLayout>
 
 
-
-
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fabRedeemReward"
+        <TextView
+            android:id="@+id/redeemReward"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="24dp"
+            android:layout_marginTop="@dimen/_150sdp"
+            android:text="I have referral code"
             android:clickable="true"
-            android:src="@drawable/step_vector"
-            app:layout_constraintBottom_toBottomOf="parent"
+
+            android:fontFamily="@font/google_sans_medium"
             app:layout_constraintEnd_toEndOf="parent"
-            android:contentDescription="redeem reward"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
             android:focusable="true" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -41,7 +42,7 @@ public class ReferralActivity extends AppCompatActivity {
     private final int rewardAmount = 5;
     boolean redeemCodeUsed;
     Button rewardBtn;
-    private FloatingActionButton fab_back;
+    private ImageView back_btn;
     private int refereeCoinsAmount;
     // private Button rewardBtn;
     private EditText refCodeInput;
@@ -57,7 +58,7 @@ public class ReferralActivity extends AppCompatActivity {
 
         rewardBtn = findViewById(R.id.claim_reward_btn);
         refCodeInput = findViewById(R.id.ref_code_input);
-        fab_back = findViewById(R.id.fab_back_ref_activity);
+        back_btn = findViewById(R.id.back_ref_activity);
 
         // button animation
         ProgressButtonHolderKt.bindProgressButton(this, rewardBtn);
@@ -86,7 +87,7 @@ public class ReferralActivity extends AppCompatActivity {
 
 
         // return back
-        fab_back.setOnClickListener(view -> {
+        back_btn.setOnClickListener(view -> {
             super.onBackPressed();
         });
 

@@ -37,7 +37,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class ProfileFragment extends Fragment {
 
 
-    FloatingActionButton btn_get_reward;
+    TextView btn_get_reward;
     boolean redeemCodeUsed;
     private String currentUserEmail;
     private FirebaseAuth mAuth;
@@ -74,7 +74,7 @@ public class ProfileFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
-        btn_get_reward = (FloatingActionButton) view.findViewById(R.id.fabRedeemReward);
+        btn_get_reward =  view.findViewById(R.id.redeemReward);
         logoutBtn  = view.findViewById(R.id.logout_btn);
 
         redeemCodeUsedRef.addValueEventListener(new ValueEventListener() {
