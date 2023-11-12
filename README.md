@@ -7,6 +7,17 @@
 
 <!-- ![Logo](app/src/main/res/mipmap-xhdpi/ic_launcher.png) -->
 
+## Collaborators
+
+<!-- readme: collaborators -start -->
+<!-- readme: collaborators -end -->
+
+## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
+
 <table>
   <tr>
     <td><img src="app/src/main/res/mipmap-xhdpi/ic_launcher.png" alt="Logo"></td>
