@@ -10,6 +10,7 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
+
         // init firebase
         FirebaseApp.initializeApp(this);
         FirebaseDatabase.getInstance().setPersistenceEnabled(true);
