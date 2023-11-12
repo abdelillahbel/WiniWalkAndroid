@@ -7,19 +7,16 @@
 
 <!-- ![Logo](app/src/main/res/mipmap-xhdpi/ic_launcher.png) -->
 
-## Collaborators
-
-readme: collaborators -start 
-
-
- readme: collaborators -end 
-
 ## Contributors
 
- readme: contributors -start 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
-readme: contributors -end 
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
 <table>
