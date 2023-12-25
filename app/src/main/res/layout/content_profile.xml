@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".fragments.ProfileFragment"
+    tools:showIn="@layout/fragment_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/headerText"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/google_sans_medium"
+            android:text="Account Info" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <ImageView
+                android:id="@+id/nameImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/ic_name" />
+
+            <TextView
+                android:id="@+id/nameTextView"
+                style="@style/profileDetailsTextMain"
+                android:layout_toRightOf="@id/nameImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="Name" />
+
+            <TextView
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/nameImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="developer" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <ImageView
+                android:id="@+id/mobileImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/ic_mobile" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_toRightOf="@id/mobileImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="Mobile" />
+
+            <TextView
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/mobileImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="+91-8129999999" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <ImageView
+                android:id="@+id/emailImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/ic_email" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_toRightOf="@id/emailImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="Email" />
+
+            <TextView
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/emailImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="developer@appsnipp.com" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <ImageView
+                android:id="@+id/addressImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/ic_address" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_toRightOf="@id/addressImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="Address" />
+
+            <TextView
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/addressImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="Avenue 2nd Street NW SY." />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <ImageView
+                android:id="@+id/dobImageView"
+                style="@style/profileDetailsImage"
+                android:fontFamily="@font/google_sans_medium"
+                android:src="@drawable/ic_dob" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_toRightOf="@id/dobImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="D.O.B" />
+
+            <TextView
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/dobImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="12-05-1990" />
+
+        </RelativeLayout>
+
+        <View
+            style="@style/proifleDetailsView"
+            android:layout_marginBottom="@dimen/_20sdp" />
+
+
+        <TextView
+            style="@style/headerText"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/google_sans_medium"
+            android:text="Settings" />
+
+        <LinearLayout
+            android:id="@+id/setting_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_setting" />
+
+            <TextView
+                android:id="@+id/nameTextVddiew"
+                style="@style/profileDetailsTextMain"
+                android:layout_toEndOf="@+id/nameImageView"
+
+                android:fontFamily="@font/google_sans_medium"
+                android:text="Account Preferences" />
+
+
+        </LinearLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+
+        <LinearLayout
+            android:id="@+id/logout_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:src="@drawable/logout" />
+
+            <TextView
+                android:id="@+id/nameTextVddffiew"
+                style="@style/profileDetailsTextMain"
+                android:layout_toEndOf="@+id/nameImageView"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="Logout" />
+
+
+        </LinearLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

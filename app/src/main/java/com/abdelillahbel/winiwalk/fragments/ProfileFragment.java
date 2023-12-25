@@ -2,6 +2,7 @@ package com.abdelillahbel.winiwalk.fragments;
 
 import static android.content.ContentValues.TAG;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -13,7 +14,9 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
@@ -55,6 +58,7 @@ public class ProfileFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
         // initialize rootRef for firebase database / mAuth
         RootRef = FirebaseDatabase.getInstance().getReference();
         mAuth = FirebaseAuth.getInstance();
@@ -74,8 +78,9 @@ public class ProfileFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
-        btn_get_reward =  view.findViewById(R.id.redeemReward);
-        logoutBtn  = view.findViewById(R.id.logout_btn);
+
+        // btn_get_reward =  view.findViewById(R.id.redeemReward);
+        // logoutBtn  = view.findViewById(R.id.logout_btn);
 
         redeemCodeUsedRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -94,19 +99,19 @@ public class ProfileFragment extends Fragment {
 
         mFullNameTextView = view.findViewById(R.id.textView_fullname);
         mProfileImageView = view.findViewById(R.id.profile_pic);
-        ConstraintLayout account_item = view.findViewById(R.id.account_item_view);
+        LinearLayout account_item = view.findViewById(R.id.setting_item);
 
-        // intent to profile
+        // intent to profile settings
         account_item.setOnClickListener(view12 -> {
             Intent i_to_profile = new Intent(getContext(), ProfileActivity.class);
             startActivity(i_to_profile);
         });
 
 
-        btn_get_reward.setOnClickListener(view1 -> {
-            Intent i_to_referral = new Intent(getContext(), ReferralActivity.class);
-            startActivity(i_to_referral);
-        });
+     //   btn_get_reward.setOnClickListener(view1 -> {
+     //       Intent i_to_referral = new Intent(getContext(), ReferralActivity.class);
+     //       startActivity(i_to_referral);
+     //   });
 
 // get full name from firebase db
         RootRef.child("Data").child("Users").child(Objects.requireNonNull(mAuth.getUid())).addValueEventListener(new ValueEventListener() {
@@ -140,12 +145,12 @@ public class ProfileFragment extends Fragment {
             }
         });
 
-        logoutBtn.setOnClickListener(view13 -> {
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(getContext(), LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-        });
+   //    logoutBtn.setOnClickListener(view13 -> {
+   //        FirebaseAuth.getInstance().signOut();
+   //        Intent intent = new Intent(getContext(), LoginActivity.class);
+   //        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+   //        startActivity(intent);
+   //    });
 
 
         return view;
