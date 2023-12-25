@@ -33,13 +33,9 @@ class StartActivity : AppCompatActivity() {
         }
         val textView = findViewById<TextView>(R.id.get_started_txt)
         val txt_title_get_started = findViewById<TextView>(R.id.get_started_title)
-        val girl_img_view = findViewById<ImageView>(R.id.girl_imageView)
         val get_started = findViewById<Button>(R.id.get_started_btn)
 
         // Animation
-        YoYo.with(Techniques.SlideInUp)
-            .duration(1500)
-            .playOn(girl_img_view)
         YoYo.with(Techniques.SlideInLeft)
             .duration(1600)
             .playOn(txt_title_get_started)
