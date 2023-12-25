@@ -122,4 +122,7 @@
             android:value="YOUR_API_KEY" />
     </application>
 
+    <!-- Made by https://www.github.com/abdelillahbel -->
+
+
 </manifest>
