@@ -14,8 +14,8 @@ android {
         applicationId "com.abdelillahbel.winiwalk"
         minSdk 23
         targetSdk 33
-        versionCode 2
-        versionName "1.0.1-beta02"
+        versionCode 3
+        versionName "1.0.12"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -108,4 +108,8 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
     implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
     implementation 'com.daimajia.androidanimations:library:2.4@aar'
+
+
+    //   Made by https://www.github.com/abdelillahbel
+
 }
