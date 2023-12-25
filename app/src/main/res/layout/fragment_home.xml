@@ -127,7 +127,7 @@
                     android:drawablePadding="10dp"
                     android:fontFamily="@font/google_sans_medium"
                     android:text="-"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp"
                     app:drawableStartCompat="@drawable/step_vector" />
 
@@ -137,7 +137,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/google_sans_regular"
                     android:text="Total steps"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -159,7 +159,7 @@
                     android:drawablePadding="10dp"
                     android:fontFamily="@font/google_sans_medium"
                     android:text="-"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp"
                     app:drawableStartCompat="@drawable/step_vector" />
 
@@ -169,7 +169,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/google_sans_regular"
                     android:text="In last day"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -195,7 +195,7 @@
             android:orientation="horizontal"
             android:padding="@dimen/_10sdp"
             android:text="Please note that we do not accept shake or fake steps."
-            android:textColor="#C62828"
+            android:textColor="#FF0000"
             android:textSize="14sp"
             app:drawableStartCompat="@drawable/ic_alert"
             app:layout_constraintEnd_toEndOf="parent"

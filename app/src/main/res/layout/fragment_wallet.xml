@@ -49,7 +49,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/google_sans_medium"
                 android:text="Balance"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <LinearLayout
@@ -65,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/scodep_bolde"
                     android:text="$"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="28sp" />
 
                 <TextView
@@ -75,7 +75,7 @@
                     android:fontFamily="@font/scodep_bolde"
                     android:maxLines="1"
                     android:text="0"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="28sp" />
             </LinearLayout>
 
@@ -88,7 +88,7 @@
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:fontFamily="@font/google_sans_regular"
                 android:text="Once your balance reaches the minimum withdrawal amount, you can withdraw your funds on a monthly basis."
-                android:textColor="@color/profileEditTextColor"
+                android:textColor="@color/dark_green600"
                 android:textSize="12sp" />
         </LinearLayout>
 

@@ -7,7 +7,7 @@
         android:icon="@drawable/ic_speedometer"
         app:cnb_textColor="#FFF"
         app:cnb_iconColor="#FFF"
-        app:cnb_backgroundColor="#FFFF6079"
+        app:cnb_backgroundColor="#075E54"
         />
     <item
         android:id="@+id/bottom_nav_Statistics"
@@ -15,7 +15,7 @@
         android:icon="@drawable/ic_chart_breakout_circle"
         app:cnb_textColor="#FFF"
         app:cnb_iconColor="#FFF"
-        app:cnb_backgroundColor="#FFFF6079"
+        app:cnb_backgroundColor="#075E54"
         />
     <item
         android:id="@+id/bottom_nav_wallet"
@@ -23,7 +23,7 @@
         android:icon="@drawable/ic_wallet"
         app:cnb_textColor="#FFF"
         app:cnb_iconColor="#FFF"
-        app:cnb_backgroundColor="#FFFF6079"
+        app:cnb_backgroundColor="#075E54"
         />
     <item
         android:id="@+id/bottom_nav_account"
@@ -31,6 +31,6 @@
         android:icon="@drawable/ic_user_circle"
         app:cnb_textColor="#FFF"
         app:cnb_iconColor="#FFF"
-        app:cnb_backgroundColor="#FFFF6079"
+        app:cnb_backgroundColor="#075E54"
         />
 </menu>

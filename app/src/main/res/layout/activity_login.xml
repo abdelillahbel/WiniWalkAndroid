@@ -25,7 +25,7 @@
             android:layout_marginStart="@dimen/_20sdp"
             android:layout_marginEnd="@dimen/_20sdp"
             android:layout_marginBottom="24dp"
-            android:background="@drawable/btn_white_background"
+            android:background="@drawable/btn_login_background"
             android:drawableLeft="@drawable/ic_apple"
             android:fontFamily="@font/barlow_regular"
             android:text="Continue with Apple"
@@ -89,7 +89,7 @@
         android:fontFamily="@font/barlow_bold"
         android:gravity="center"
 
-        android:text="Create an account or sign in"
+        android:text="Welcome !"
         android:textColor="@color/black"
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout_login_elements"

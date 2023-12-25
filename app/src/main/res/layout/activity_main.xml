@@ -22,7 +22,7 @@
         android:padding="8dp"
         app:cnb_menuResource="@menu/bottom_menu"
         app:cnb_textAppearance="@style/bottom_text_style"
-        app:cnb_unselectedColor="#CCFF6079" />
+        app:cnb_unselectedColor="#273443" />
 </RelativeLayout>
 
 

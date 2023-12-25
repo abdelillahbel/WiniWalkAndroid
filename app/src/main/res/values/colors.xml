@@ -12,8 +12,19 @@
     <color name="red">#C62828</color>
     <color name="alert_dialog_button_color">#FFFF6079</color>
 
+    <!-- colors main -->
+    <color name="dark_green100">#273443</color>
+    <color name="dark_green200">#075E54</color>
+    <color name="dark_green300">#128C7E</color>
+    <color name="dark_green400">#1EBEA5</color>
+    <color name="dark_green500">#77D7C8</color>
+    <color name="dark_green600">#D0E9EA</color>
+    <color name="dark_green700">#EDF8F5</color>
+    <!-- colors main - end -->
+
+
     <!--colors for profile-->
-    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profilePrimaryDark">#075E54</color>
     <color name="profileAccentColor">#F7F7F7</color>
     <color name="whiteTextColor">#fff</color>
     <color name="profileBackground">#fff</color>
