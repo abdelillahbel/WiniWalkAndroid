@@ -14,7 +14,7 @@
 
 <table>
   <tr>
-    <td><img src="app/src/main/res/mipmap-xhdpi/ic_launcher.png" alt="Logo"></td>
+    <td><img src="app/src/main/ic_launcher-playstore.png" alt="Logo"></td>
     <td>WiniWalk is a fun and motivating walking app designed to turn every step into a chance to win! Whether you're a fitness enthusiast or just looking to stay active, WiniWalk provides a unique and enjoyable way to track your walking progress while giving you the opportunity to earn rewards and prizes along the way.</td>
   </tr>
 </table>
