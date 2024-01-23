@@ -25,7 +25,8 @@ android {
             buildConfigField(
                     "String",
                     "WEB_CLIENT_ID",
-                    "\"PUT_YOUR_WEB_CLIENT_ID_HERE\""
+                    "\"962948730962-8d1g34k54ruq6svq1s4g1bpcnefn1cm3.apps.googleusercontent.com\""
+                   // "\"PUT_YOUR_WEB_CLIENT_ID_HERE\""
             )
 
         }
@@ -33,7 +34,7 @@ android {
             buildConfigField(
                     "String",
                     "WEB_CLIENT_ID",
-                    "\"PUT_YOUR_WEB_CLIENT_ID_HERE\""
+                    "\"962948730962-8d1g34k54ruq6svq1s4g1bpcnefn1cm3.apps.googleusercontent.com\""
             )
             minifyEnabled false
             shrinkResources false
